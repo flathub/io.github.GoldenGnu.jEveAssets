@@ -46,7 +46,7 @@ modules:
     sources:
       - type: archive
         url: https://eve.nikr.net/jeveassets/data.zip
-        sha256: 0dfef6d5a3d39c25b25f1d48d3a3ad6461966fd0be5317f02a92c93aa43c0cd6
+        sha256: cf528011d9aed731729185abfc7aeeea9395dc4cd80c89fc1cdebdb7c5256155
   - name: flatpakAssets
     buildsystem: simple
     build-commands:
