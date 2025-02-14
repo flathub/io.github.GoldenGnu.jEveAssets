@@ -40,6 +40,7 @@ modules:
           version-query: .tag_name | sub("^jeveassets-"; "")
           url-query: .assets[] | select(.name=="jeveassets-" + $version + ".zip")
             | .browser_download_url
+          is-main-source: true
   - name: staticData
     buildsystem: simple
     build-commands:
@@ -48,6 +49,9 @@ modules:
       - type: archive
         url: https://eve.nikr.net/jeveassets/data.zip
         sha256: cf528011d9aed731729185abfc7aeeea9395dc4cd80c89fc1cdebdb7c5256155
+        x-checker-data:
+          type: rotating-url
+          url: https://eve.nikr.net/jeveassets/data.zip
   - name: flatpakAssets
     buildsystem: simple
     build-commands:
