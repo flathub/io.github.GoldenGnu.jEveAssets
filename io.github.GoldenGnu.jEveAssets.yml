@@ -32,8 +32,8 @@ modules:
       - cp -r lib /app/jEveAssets
     sources:
       - type: archive
-        url: https://github.com/GoldenGnu/jeveassets/releases/download/jeveassets-7.9.3/jeveassets-7.9.3.zip
-        sha256: baabb293bc5ac312ff7f355aa8e885a99ef1e8d4dc1a447eb626d2b33beffad3
+        url: https://github.com/GoldenGnu/jeveassets/releases/download/jeveassets-7.9.4/jeveassets-7.9.4.zip
+        sha256: f0cf32aa22e27663f67c4164d18232086b8ca1d139bc7e98978a3cc83ca20a4f
         x-checker-data:
           type: json
           url: https://api.github.com/repos/GoldenGnu/jeveassets/releases/latest

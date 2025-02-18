@@ -47,6 +47,9 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="7.9.4" date="2025-02-18">
+            <description></description>
+        </release>
         <release version="7.9.3.20250212" date="2025-02-13">
             <description>
                 <ul>
@@ -64,4 +67,3 @@
     </releases>
     <content_rating type="oars-1.1"/>
 </component>
-
