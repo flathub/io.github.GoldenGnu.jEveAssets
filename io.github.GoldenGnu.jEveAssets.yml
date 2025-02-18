@@ -6,13 +6,14 @@ sdk-extensions:
 sdk: org.freedesktop.Sdk
 command: jEveAssets
 finish-args:
-  - --env=PATH=/app/jre/bin:/usr/bin:/app/bin
-  - --socket=x11
   - --share=ipc
-  - --share=network
+  - --socket=wayland
+  - --socket=fallback-x11
   - --socket=pulseaudio
+  - --share=network
   - --persist=.jeveassets
   - --persist=jEveAssets_mnt
+  - --env=PATH=/app/jre/bin:/usr/bin:/app/bin
 separate-locales: false
 modules:
   - name: openjdk
