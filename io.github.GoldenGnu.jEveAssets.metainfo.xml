@@ -48,7 +48,14 @@
     </screenshots>
     <releases>
         <release version="7.9.4" date="2025-02-18">
-            <description></description>
+            <url type="details">https://github.com/GoldenGnu/jeveassets/releases/tag/jeveassets-7.9.4</url>
+            <description>
+                <p>Bug Fixes:</p>
+                    <ul>
+                        <li>-CtD in the stockpile tool (NPE)</li>
+                        <li>-CtD when sorting columns (NPE/ISE)</li>
+                    </ul>
+            </description>
         </release>
         <release version="7.9.3.20250212" date="2025-02-13">
             <description>
