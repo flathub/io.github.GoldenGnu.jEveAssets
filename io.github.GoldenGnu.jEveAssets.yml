@@ -7,8 +7,7 @@ sdk: org.freedesktop.Sdk
 command: jEveAssets
 finish-args:
   - --share=ipc
-  - --socket=wayland
-  - --socket=fallback-x11
+  - --socket=x11
   - --socket=pulseaudio
   - --share=network
   - --persist=.jeveassets
