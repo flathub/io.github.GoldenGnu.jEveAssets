@@ -48,7 +48,7 @@ modules:
     sources:
       - type: archive
         url: https://eve.nikr.net/jeveassets/data.zip
-        sha256: 5e8d19a3c8d60825b6b2b7bf945802662345c40032687ebbcf1a6df4a1141581
+        sha256: 9652ccee98d6f9e2e49c84752763b425496a664ab2fa8d0a589eef78d66bbfd1
         x-checker-data:
           type: rotating-url
           url: https://eve.nikr.net/jeveassets/data.zip
