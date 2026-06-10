@@ -1,3 +1,4 @@
 /.idea/
 /.flatpak-builder/
-/build-dir/
+/builddir/
+/repo/
