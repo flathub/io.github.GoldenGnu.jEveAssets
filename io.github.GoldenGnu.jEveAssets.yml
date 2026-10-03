@@ -1,6 +1,6 @@
 app-id: io.github.GoldenGnu.jEveAssets
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk17
 sdk: org.freedesktop.Sdk
@@ -40,6 +40,8 @@ modules:
           version-query: .tag_name | sub("^jeveassets-"; "")
           url-query: .assets[] | select(.name=="jeveassets-" + $version + ".zip")
             | .browser_download_url
+          timestamp-query: .published_at
+          release-url-template: https://github.com/GoldenGnu/jeveassets/releases/tag/jeveassets-$version
           is-main-source: true
   - name: staticData
     buildsystem: simple
