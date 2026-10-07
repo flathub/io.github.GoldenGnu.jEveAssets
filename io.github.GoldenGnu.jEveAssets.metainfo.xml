@@ -50,8 +50,12 @@
         </screenshot>
     </screenshots>
     <releases>
-        <release version="8.2.1" date="2026-09-26">
+        <release version="8.2.2" date="2026-10-06">
+            <url type="details">https://github.com/GoldenGnu/jeveassets/releases/tag/jeveassets-8.2.2</url>
             <description></description>
+        </release>
+        <release version="8.2.1" date="2026-09-26">
+            <description/>
         </release>
         <release version="8.2.0" date="2026-07-28">
             <description/>
