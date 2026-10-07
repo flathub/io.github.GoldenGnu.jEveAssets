@@ -32,8 +32,8 @@ modules:
       - cp -r lib /app/jEveAssets
     sources:
       - type: archive
-        url: https://github.com/GoldenGnu/jeveassets/releases/download/jeveassets-8.2.1/jeveassets-8.2.1.zip
-        sha256: 2e6402f2f2178a87bcf64c9482e59efbffad15dcaf2d7c46790bec0bf5220454
+        url: https://github.com/GoldenGnu/jeveassets/releases/download/jeveassets-8.2.2/jeveassets-8.2.2.zip
+        sha256: 62cb1a6fe1a3aa085c0fbb8c9d9728868cd822f100536192fa6a0427a46d874d
         x-checker-data:
           type: json
           url: https://api.github.com/repos/GoldenGnu/jeveassets/releases/latest
@@ -50,7 +50,7 @@ modules:
     sources:
       - type: archive
         url: https://eve.nikr.net/jeveassets/data.zip
-        sha256: 96a784bf850798acd05cf42c608937e87538ce7ff2cceaeb1880940630455b70
+        sha256: 5e094d829e3345a036c5c9a188461d6e3be2c79385be1db09cf025dc7b70ae34
         x-checker-data:
           type: rotating-url
           url: https://eve.nikr.net/jeveassets/data.zip
